@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_utils_bonus.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amouflet <amouflet@student.42.fr>          +#+  +:+       +#+        */
+/*   By: admoufle <admoufle@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/02 01:14:47 by malfwa            #+#    #+#             */
-/*   Updated: 2022/12/03 15:56:01 by amouflet         ###   ########.fr       */
+/*   Created: 2025/04/24 13:08:37 by admoufle          #+#    #+#             */
+/*   Updated: 2025/04/24 13:19:09 by admoufle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

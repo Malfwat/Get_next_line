@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amouflet <amouflet@student.42.fr>          +#+  +:+       +#+        */
+/*   By: admoufle <admoufle@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/28 22:18:56 by amouflet          #+#    #+#             */
-/*   Updated: 2022/12/04 16:01:14 by amouflet         ###   ########.fr       */
+/*   Created: 2025/04/24 13:08:27 by admoufle          #+#    #+#             */
+/*   Updated: 2025/04/24 14:24:01 by admoufle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,8 +62,7 @@ int	join_t_buf(t_buf **begin, char **stash, char **line)
 		stash = NULL;
 		return (free_lst(begin), -1);
 	}
-	cpy(stash, line, tmp);
-	return (free_lst(begin));
+	return (cpy(stash, line, tmp), free_lst(begin));
 }
 
 int	check_stash(char **stash, char	**line, char *new_stash, int i)
